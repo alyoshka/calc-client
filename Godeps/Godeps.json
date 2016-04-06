@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/alyoshka/calc-client",
+	"GoVersion": "go1.5",
+	"GodepVersion": "v61",
+	"Deps": [
+		{
+			"ImportPath": "git.apache.org/thrift.git/lib/go/thrift",
+			"Rev": "cdc83335d60756c4bfb0d2c8af7933500c9e3c06"
+		},
+		{
+			"ImportPath": "github.com/alyoshka/calc-server/gen-go/calculate",
+			"Rev": "f84c706ef64d7797d6e0f1dd31e259512595fd6d"
+		}
+	]
+}
