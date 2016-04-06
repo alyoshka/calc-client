@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/alyoshka/rpcalc/gen-go/calculate"
+	"github.com/alyoshka/calc-server/gen-go/calculate"
 )
 
 // Client - client for rpc calculator server
