@@ -1,5 +1,5 @@
-#calc-server
-RPC calculator server  
+#calc-client
+client for RPC calculator server  
 Calculates simple arithmetic tasks.
 
 ##Requirements
@@ -8,7 +8,7 @@ Then install Godep:
 `go get github.com/tools/godep`
 
 ##Installation
-Download calc-server:  
+Download calc-client:  
 `go get github.com/alyoshka/calc-client`  
 `cd $GOPATH/src/github.com/alyoshka/calc-client`  
 Install  
