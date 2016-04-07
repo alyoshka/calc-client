@@ -21,4 +21,5 @@ Client starts interactive session if no command argument passed.
 ##Commands
 client accepts commands of the following form  
 `arg1 operation arg2`  
-Where arg1 and arg2 - numbers, operation is one of supported mathematical signs (+, -, * or /)
+Where arg1 and arg2 - numbers, operation is one of supported mathematical signs (+, -, * or /).  
+Arguments and operation should be separated by spaces.
