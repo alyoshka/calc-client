@@ -50,6 +50,10 @@ func (c *Client) Handle(input string) (result float64, err error) {
 		return
 	}
 	command := strings.Split(strings.Trim(input, "\n"), " ")
+	if len(command) != 3 {
+		err = errors.New("Not enough arguments")
+		return
+	}
 	arg1, err := strconv.ParseFloat(command[0], 64)
 	if err != nil {
 		err = errors.New("Failed to parse first argument")
